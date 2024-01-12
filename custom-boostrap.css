@@ -3,6 +3,11 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+html {
+  height: 100vh;
+  background-color: #141414;
+}
+
 .nav-img-container {
   width: 50px;
   height: 50px;
@@ -11,6 +16,7 @@ body {
 main {
   color: #fefefe;
   padding: 12px;
+  background-color: #141414;
 }
 
 #navbarNavAltMarkup {
@@ -49,6 +55,25 @@ ul .list-group-item {
   color: rgb(87, 87, 87);
   border: 0;
   padding: 0.2em;
+}
+
+span {
+  font-weight: 700;
+}
+
+#profile-main h1, #profile-main .h1 {
+  margin-bottom: 1em;
+}
+#profile-main hr {
+  margin: 1.5em 0;
+}
+
+button {
+  margin-bottom: 2em;
+}
+
+.container-button button {
+  margin: 0.2em 0;
 }
 
 /*!
