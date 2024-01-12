@@ -1,0 +1,69 @@
+@import "bootstrap-5.3.2/scss/functions";
+@import "bootstrap-5.3.2/scss/variables";
+
+$new-primary: #141414;
+$new-secondary: #fefefe;
+$new-tertiary: rgb(87, 87, 87);
+
+$new-theme-colors: (
+  "primary": $new-primary,
+  "secondary": $new-secondary,
+  "tertiary": $new-tertiary,
+);
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-img-container {
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  color: $new-secondary;
+  padding: 12px;
+}
+
+#navbarNavAltMarkup {
+  font-size: 0.8em;
+}
+
+section.row img {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+section {
+  margin: 1.5em;
+  padding: 0.5em;
+}
+
+footer {
+  .list-group {
+    background-color: transparent;
+  }
+  i {
+    color: $new-tertiary;
+  }
+  font-size: 0.8em;
+
+  button {
+    margin: 1.8em 0;
+  }
+  p {
+    color: $new-tertiary;
+  }
+}
+ul {
+  .list-group-item {
+    background-color: $new-primary;
+    color: $new-tertiary;
+    border: 0;
+    padding: 0.2em;
+  }
+}
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+@import "bootstrap-5.3.2/scss/bootstrap.scss";
