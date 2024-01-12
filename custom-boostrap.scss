@@ -26,7 +26,7 @@ html {
 
 main {
   color: $new-secondary;
-  padding: 12px;
+  padding: 10px;
   background-color: $new-primary;
 }
 
@@ -46,11 +46,13 @@ section {
 }
 
 footer {
+  background-color: $new-primary;
   .list-group {
     background-color: transparent;
   }
   i {
     color: $new-tertiary;
+    font-size: 2em;
   }
   font-size: 0.8em;
 
@@ -59,6 +61,7 @@ footer {
   }
   p {
     color: $new-tertiary;
+    margin: 0;
   }
 }
 ul {
@@ -88,6 +91,11 @@ button {
 
 .container-button button {
   margin: 0.2em 0;
+}
+
+#social-icons {
+  height: 150px;
+  width: 150px;
 }
 
 $theme-colors: map-merge($theme-colors, $new-theme-colors);

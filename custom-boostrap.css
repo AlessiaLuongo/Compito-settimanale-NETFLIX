@@ -15,7 +15,7 @@ html {
 
 main {
   color: #fefefe;
-  padding: 12px;
+  padding: 10px;
   background-color: #141414;
 }
 
@@ -35,6 +35,7 @@ section {
 }
 
 footer {
+  background-color: #141414;
   font-size: 0.8em;
 }
 footer .list-group {
@@ -42,12 +43,14 @@ footer .list-group {
 }
 footer i {
   color: rgb(87, 87, 87);
+  font-size: 2em;
 }
 footer button {
   margin: 1.8em 0;
 }
 footer p {
   color: rgb(87, 87, 87);
+  margin: 0;
 }
 
 ul .list-group-item {
@@ -74,6 +77,11 @@ button {
 
 .container-button button {
   margin: 0.2em 0;
+}
+
+#social-icons {
+  height: 150px;
+  width: 150px;
 }
 
 /*!
